@@ -1,0 +1,20 @@
+{
+  "name": "embedly-amp",
+  "version": "0.0.0",
+  "description": "Demos of Embedly and Google's AMP",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://embed.ly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "embedly-jquery": "~3.1.2",
+    "foundation": "~5.5.3"
+  }
+}

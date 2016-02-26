@@ -1,0 +1,49 @@
+// Overwrite the color of the default amp loader.
+@keyframes -amp-loader-dots {
+  0%, 100% {
+    transform: scale(.7);
+    background-color: rgba(255, 255, 255, .7);
+  }
+
+  50% {
+    transform: scale(.8);
+    background-color: rgba(255, 255, 255, .9);
+  }
+}
+
+.-amp-loader {
+  height: 20px;
+  .-amp-loader-dot {
+    background-color: rgba(255, 255, 255, .7);
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    border-radius: 100%;
+  }
+  &.amp-active .-amp-loader-dot {
+    animation: -amp-loader-dots 2s infinite;
+  }
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+p {
+  color: #444;
+  &.lead {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+    font-size: 1.1rem;
+    padding: 0 0 1rem 0;
+  }
+}
+
+
+.embed {
+  margin: 4rem 0;
+}
