@@ -1,0 +1,52 @@
+@keyframes -amp-loader-dots {
+  0%, 100% {
+    transform: scale(0.7);
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    transform: scale(0.8);
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
+/* line 14, ../../sass/app.scss */
+.-amp-loader {
+  height: 20px;
+}
+/* line 16, ../../sass/app.scss */
+.-amp-loader .-amp-loader-dot {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+  border-radius: 100%;
+}
+/* line 23, ../../sass/app.scss */
+.-amp-loader.amp-active .-amp-loader-dot {
+  animation: -amp-loader-dots 2s infinite;
+}
+
+/* line 29, ../../sass/app.scss */
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+
+/* line 35, ../../sass/app.scss */
+p {
+  color: #444;
+}
+/* line 37, ../../sass/app.scss */
+p.lead {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  font-size: 1.1rem;
+  padding: 0 0 1rem 0;
+}
+
+/* line 47, ../../sass/app.scss */
+.embed {
+  margin: 4rem 0;
+}
